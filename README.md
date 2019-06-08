@@ -41,13 +41,23 @@ Semantic HTML provides meaning to content so it's easily understood between comp
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 ## Answer
-Semantic HTML provides meaning to content so it's easily understood between companies and development teams. Semantic HTML provide meaning to the content of what we code. It's information that can be understood between companies and development teams. Semantic code is meaning to content. 
+display: inline; -- allows us to set a width and height on an element. The top and bottom margin paddings are set with display: block; but not for display: inline. Also, display: block; does not add a line break after an element. 
 
 3. What are the 4 areas of the box model?
 
+## Answer
+The 4 areas of the box model are Margin, Border, Padding, and Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+## Answer
+Cross axis, which in this case is the block axis running vertically.
+
 5. Explain why git is valuable to a team of developers.
+
+## Answer
+It's like the save button for developers that's shared across teams. I think it's important because it introduces a streamlined workflow across teams allowing for collaborations, centralized saving and version history (so you can recall back your code in case you mess up) and overall a better way to work.  
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
