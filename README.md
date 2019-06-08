@@ -34,7 +34,14 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+## Answer
+Semantic HTML provides meaning to content so it's easily understood between companies and development teams. Semantic code is meaning to content. 
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+## Answer
+Semantic HTML provides meaning to content so it's easily understood between companies and development teams. Semantic HTML provide meaning to the content of what we code. It's information that can be understood between companies and development teams. Semantic code is meaning to content. 
 
 3. What are the 4 areas of the box model?
 
