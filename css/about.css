@@ -109,31 +109,60 @@ header .nav-bar {
     margin: 20px 20px;
 }
 
-.middle-content {
-    margin-bottom: 70px;
-    margin-top: 30 px;
+.middle-content-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10 2% 20px;
 }
 
-.middle-content .strategy {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content-1 .text-container {
+    padding-right: 4%;
+    margin: 10 2% 20px;
 }
 
-.middle-content .howwework {
+.middle-content-1 .text-container-strategy {
+    border-bottom: 1px dashed black;
+
+}
+.middle-content-1 .text-container-hww {
+    border-bottom: 1px dashed black;
+
+}
+
+.middle-content-2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10 2% 20px;
+}
+
+.middle-content-2 .text-container {
+    padding-right: 4%;
+    margin: 10 2% 20px;
+}
+
+.middle-content-2 .text-container-places {
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-2 .text-container-collab {
+    border-bottom: 1px dashed black;
 }
 
 button {
-    border-radius: 10px;
-    border: 2;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: .1rem;
-    text-align: center;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: white;
     color: black;
+    border: 2px solid black; 
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.bottom-content {
+    padding: 30px;
 }
 
 footer {
