@@ -71,15 +71,22 @@ p {
     margin: 0 auto;
 }
 
-.navigation-bar {
-    display: flex;
+header {
     width: 800px;
-    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header .nav-bar {
+    display: flex;
     text-decoration: none;
+    text
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
     margin: 30px;
 }
 
-.navigation-bar ul a{
+.nav-bar ul a{
     color: black;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;

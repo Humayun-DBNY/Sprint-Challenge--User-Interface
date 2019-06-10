@@ -66,47 +66,64 @@ p {
     line-height: 1.4;
 }
 
-.navigation-bar {
-    display: flex;
+ .container {
     width: 800px;
-    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header .nav-bar {
+    display: flex;
     text-decoration: none;
+    text
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
     margin: 30px;
 }
-.navigation-bar ul a{
+
+.nav-bar ul a{
     color: black;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
-.main-container {
-    width: 800px;
-    margin: 0 auto;
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 15px;
+    border-bottom: 1px dashed black;
 }
 
-.banner-about {
+.banner {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 20px;
 }
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+
+.middle-content {
+    margin-bottom: 70px;
+    margin-top: 30 px;
 }
 
-.strategy {
+.middle-content .strategy {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
 }
 
-.howwework {
+.middle-content .howwework {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
